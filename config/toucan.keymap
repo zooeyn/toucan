@@ -27,6 +27,120 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mac {
+            bindings = <&mac>;
+            key-positions = <36 37 38>;
+        };
+
+        win {
+            bindings = <&win>;
+            key-positions = <39 40 41>;
+        };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <24 35>;
+        };
+
+        layer {
+            bindings = <&tog 2>;
+            key-positions = <36 41>;
+        };
+
+        lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <4 5>;
+        };
+
+        rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <6 7>;
+        };
+
+        lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <16 17>;
+        };
+
+        rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <18 19>;
+        };
+
+        lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <28 29>;
+        };
+
+        rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <30 31>;
+        };
+
+        excl {
+            bindings = <&kp EXCL>;
+            key-positions = <2 3>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <3 4>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <14 15>;
+        };
+
+        dllr {
+            bindings = <&kp DLLR>;
+            key-positions = <15 16>;
+        };
+
+        amps {
+            bindings = <&kp AMPS>;
+            key-positions = <26 27>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <28 27>;
+        };
+
+        times {
+            bindings = <&kp STAR>;
+            key-positions = <8 7>;
+        };
+
+        mod {
+            bindings = <&kp PRCNT>;
+            key-positions = <9 8>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <19 20>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <20 21>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+        };
+
+        under {
+            bindings = <&kp UNDER>;
+            key-positions = <32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

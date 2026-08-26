@@ -64,7 +64,7 @@
         scroll-sensitivity = <60>;
 
         filter-settings=<0x0B>;
-        hold-time = <250>;
+        hold-time = <150>;
 
         zoom;
         scroll;

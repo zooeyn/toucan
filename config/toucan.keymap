@@ -11,6 +11,12 @@
     hold-trigger-on-release;
 };
 
+&lt {
+    quick-tap-ms = <175>;
+    tapping-term-ms = <200>;
+    flavor = "balanced";
+};
+
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
@@ -32,6 +38,8 @@
 
     combos {
         compatible = "zmk,combos";
+        global-quick-tap-ms = <75>;
+        require-prior-idle-ms = <150>;
 
         mac {
             bindings = <&mac>;
@@ -160,7 +168,7 @@
 
         win {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LWIN R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt RALT E  &mt RWIN I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &mo 2  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &mo 2
+&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LWIN R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt RALT E  &mt RWIN I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
             >;
         };
 

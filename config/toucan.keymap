@@ -184,13 +184,13 @@
 
         mac {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LCTRL S  &mt LALT D  &mt LCMD F  &kp G  &kp H  &mt RCMD J  &mt RALT K  &mt RCTRL L  &mt RSHFT SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
+&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LCTRL R  &mt LALT S  &mt LCMD T  &kp G  &kp M  &mt RCMD N  &mt RALT E  &mt RCTRL I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
             >;
         };
 
         win {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LWIN S  &mt LALT D  &mt LCTRL F  &kp G  &kp H  &mt RCTRL J  &mt RALT K  &mt RWIN L  &mt RSHFT SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
+&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LWIN R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt RALT E  &mt RWIN I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
             >;
         };
 

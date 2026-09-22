@@ -202,7 +202,7 @@
         };
 
         clear {
-            bindings = <&bt BT_CLR_ALL>;
+            bindings = <&bt BT_CLR>;
             key-positions = <36 37 38 39 40 41>;
             require-prior-idle-ms = <150>;
         };

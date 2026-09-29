@@ -54,7 +54,7 @@
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <24 35>;
+            key-positions = <13 22>;
             require-prior-idle-ms = <150>;
         };
 
@@ -66,73 +66,73 @@
 
         lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <4 5>;
+            key-positions = <2 3>;
             require-prior-idle-ms = <150>;
         };
 
         rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <6 7>;
+            key-positions = <3 4>;
             require-prior-idle-ms = <150>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <16 17>;
+            key-positions = <14 15>;
             require-prior-idle-ms = <150>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <18 19>;
+            key-positions = <16 15>;
             require-prior-idle-ms = <150>;
         };
 
         lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <28 29>;
+            key-positions = <26 27>;
             require-prior-idle-ms = <150>;
         };
 
         rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <30 31>;
+            key-positions = <28 27>;
             require-prior-idle-ms = <150>;
         };
 
         excl {
             bindings = <&kp EXCL>;
-            key-positions = <2 3>;
+            key-positions = <5 4>;
             require-prior-idle-ms = <150>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <27 26>;
+            key-positions = <28 29>;
             require-prior-idle-ms = <150>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <14 15>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <150>;
         };
 
         dllr {
             bindings = <&kp DLLR>;
-            key-positions = <15 16>;
+            key-positions = <18 19>;
             require-prior-idle-ms = <150>;
         };
 
         amps {
             bindings = <&kp AMPS>;
-            key-positions = <3 4>;
+            key-positions = <6 7>;
             require-prior-idle-ms = <150>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <27 28>;
+            key-positions = <30 31>;
             require-prior-idle-ms = <150>;
         };
 
@@ -150,25 +150,25 @@
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <19 20>;
+            key-positions = <31 32>;
             require-prior-idle-ms = <150>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <20 21>;
+            key-positions = <32 33>;
             require-prior-idle-ms = <150>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
             require-prior-idle-ms = <150>;
         };
 
         under {
             bindings = <&kp UNDER>;
-            key-positions = <32 33>;
+            key-positions = <20 21>;
             require-prior-idle-ms = <150>;
         };
 
@@ -176,6 +176,36 @@
             bindings = <&bt BT_CLR>;
             key-positions = <36 37 38 39 40 41>;
             require-prior-idle-ms = <150>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <21 22>;
+        };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <9 10>;
+        };
+
+        bslh {
+            bindings = <&kp BSLH>;
+            key-positions = <34 33>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <13 14>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <25 26>;
         };
     };
 

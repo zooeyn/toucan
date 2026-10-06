@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
     - name: geeksville
       url-base: https://github.com/geeksville
     - name: beekeeb
@@ -12,10 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: v0.3
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: v0.3
+      revision: main
     - name: zmk_driver_azoteq
       remote: beekeeb
       revision: main

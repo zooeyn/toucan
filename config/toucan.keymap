@@ -66,73 +66,73 @@
 
         lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <2 3>;
+            key-positions = <4 5>;
             require-prior-idle-ms = <150>;
         };
 
         rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <3 4>;
+            key-positions = <6 7>;
             require-prior-idle-ms = <150>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <14 15>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <150>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <16 15>;
+            key-positions = <18 19>;
             require-prior-idle-ms = <150>;
         };
 
         lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <26 27>;
+            key-positions = <28 29>;
             require-prior-idle-ms = <150>;
         };
 
         rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <28 27>;
+            key-positions = <30 31>;
             require-prior-idle-ms = <150>;
         };
 
         excl {
             bindings = <&kp EXCL>;
-            key-positions = <5 4>;
+            key-positions = <2 3>;
             require-prior-idle-ms = <150>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <28 29>;
+            key-positions = <26 27>;
             require-prior-idle-ms = <150>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <16 17>;
+            key-positions = <14 15>;
             require-prior-idle-ms = <150>;
         };
 
         dllr {
             bindings = <&kp DLLR>;
-            key-positions = <18 19>;
+            key-positions = <15 16>;
             require-prior-idle-ms = <150>;
         };
 
         amps {
             bindings = <&kp AMPS>;
-            key-positions = <6 7>;
+            key-positions = <3 4>;
             require-prior-idle-ms = <150>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <30 31>;
+            key-positions = <27 28>;
             require-prior-idle-ms = <150>;
         };
 
@@ -214,19 +214,28 @@
 
         mac {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LCTRL R  &mt LALT S  &mt LCMD T  &kp G  &kp M  &mt RCMD N  &mt RALT E  &mt RCTRL I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
+&kp GRAVE  &kp Q        &kp W        &kp F            &kp P       &kp B    &kp J      &kp L       &kp U            &kp Y        &kp SQT      &kp BSLH
+&kp ESC    &mt LSHFT A  &mt LCTRL R  &mt LALT S       &mt LCMD T  &kp G    &kp M      &mt RCMD N  &mt RALT E       &mt RCTRL I  &mt RSHFT O  &kp SEMI
+&kp LSHFT  &kp Z        &kp X        &kp C            &kp D       &kp V    &kp K      &kp H       &kp COMMA        &kp DOT      &kp FSLH     &kp RSHFT
+                                     &lt 2 LA(SPACE)  &kp SPACE   &kp TAB  &kp ENTER  &kp BSPC    &lt 2 RA(SPACE)
             >;
         };
 
         win {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SQT  &kp BSLH  &kp ESC  &mt LSHFT A  &mt LWIN R  &mt LALT S  &mt LCTRL T  &kp G  &kp M  &mt RCTRL N  &mt RALT E  &mt RWIN I  &mt RSHFT O  &kp SEMI  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &lt 2 LA(SPACE)  &kp SPACE  &kp TAB  &kp ENTER  &kp BSPC  &lt 2 RA(SPACE)
+&kp GRAVE  &kp Q        &kp W       &kp F            &kp P        &kp B    &kp J      &kp L        &kp U            &kp Y       &kp SQT      &kp BSLH
+&kp ESC    &mt LSHFT A  &mt LWIN R  &mt LALT S       &mt LCTRL T  &kp G    &kp M      &mt RCTRL N  &mt RALT E       &mt RWIN I  &mt RSHFT O  &kp SEMI
+&kp LSHFT  &kp Z        &kp X       &kp C            &kp D        &kp V    &kp K      &kp H        &kp COMMA        &kp DOT     &kp FSLH     &kp RSHFT
+                                    &lt 2 LA(SPACE)  &kp SPACE    &kp TAB  &kp ENTER  &kp BSPC     &lt 2 RA(SPACE)
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &mkp MB4  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mkp MB5  &trans  &trans  &trans  &trans  &kp PG_UP  &kp PG_DN  &trans  &trans  &kp PG_DN  &kp PG_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1    &kp N2    &kp N3     &kp N4     &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp N0    &trans
+&trans  &mkp MB4  &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &mkp MB5  &trans
+&trans  &trans    &trans    &kp PG_UP  &kp PG_DN  &trans     &trans    &kp PG_DN  &kp PG_UP  &trans     &trans    &trans
+                            &trans     &trans     &trans     &trans    &trans     &trans
             >;
         };
     };

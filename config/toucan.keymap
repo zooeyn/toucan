@@ -43,169 +43,203 @@
         mac {
             bindings = <&mac>;
             key-positions = <36 37 38>;
+            timeout-ms = <100>;
             require-prior-idle-ms = <150>;
         };
 
         win {
             bindings = <&win>;
             key-positions = <39 40 41>;
+            timeout-ms = <100>;
             require-prior-idle-ms = <150>;
         };
 
         caps {
             bindings = <&kp CAPS>;
             key-positions = <13 22>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         layer {
             bindings = <&tog 2>;
             key-positions = <36 41>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         lbrc {
             bindings = <&kp LBRC>;
             key-positions = <4 5>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         rbrc {
             bindings = <&kp RBRC>;
             key-positions = <6 7>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
             key-positions = <16 17>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
             key-positions = <18 19>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         lbkt {
             bindings = <&kp LBKT>;
             key-positions = <28 29>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         rbkt {
             bindings = <&kp RBKT>;
             key-positions = <30 31>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         excl {
             bindings = <&kp EXCL>;
             key-positions = <2 3>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <26 27>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <14 15>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         dllr {
             bindings = <&kp DLLR>;
             key-positions = <15 16>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         amps {
             bindings = <&kp AMPS>;
             key-positions = <3 4>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <27 28>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         times {
             bindings = <&kp STAR>;
             key-positions = <8 7>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         mod {
             bindings = <&kp PRCNT>;
             key-positions = <9 8>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <31 32>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <32 33>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <19 20>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         under {
             bindings = <&kp UNDER>;
             key-positions = <20 21>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <150>;
         };
 
         clear {
             bindings = <&bt BT_CLR>;
             key-positions = <36 37 38 39 40 41>;
+            timeout-ms = <100>;
             require-prior-idle-ms = <150>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <21 22>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
 
         semi {
             bindings = <&kp SEMI>;
             key-positions = <9 10>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <34 33>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
 
         esc {
             bindings = <&kp ESC>;
             key-positions = <13 14>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <1 2>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
 
         pipe {
-            bindings = <&kp PIPE>;
             key-positions = <25 26>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
         };
     };
 

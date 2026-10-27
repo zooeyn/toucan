@@ -237,6 +237,7 @@
         };
 
         pipe {
+            bindings = <&kp PIPE>;
             key-positions = <25 26>;
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
